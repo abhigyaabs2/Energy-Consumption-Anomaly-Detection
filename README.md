@@ -14,17 +14,16 @@ A machine learning project that uses **Isolation Forest** algorithm to detect un
 ## 📋 Project Structure
 
 ```
-energy-anomaly-detector/
+Energy Consumption Anomaly Detector/
 │
-├── streamlit_app.py          # Main Streamlit application
-├── notebook.ipynb             # Jupyter notebook for analysis
-├── requirements.txt           # Python dependencies
+├── energy_app.py              # Main Streamlit application
+├── enery anomaly.ipynb        # Jupyter notebook for analysis          
 ├── README.md                  # This file
 │
-├── data/                      # (Optional) Sample data folder
-│   └── sample_energy.csv
+├── data/                      # Sample data folder
+│   └── energy_anomalies_detected.csv
 │
-└── models/                    # (Optional) Saved models
+└── models/                    # Saved models
     ├── isolation_forest_model.pkl
     └── scaler.pkl
 ```
@@ -35,8 +34,8 @@ energy-anomaly-detector/
 
 ```bash
 # Create project directory
-mkdir energy-anomaly-detector
-cd energy-anomaly-detector
+mkdir Energy Consumption Anomaly Detector
+cd Energy Consumption Anomaly Detector
 ```
 
 ### 2. Run Jupyter Notebook (Optional)
